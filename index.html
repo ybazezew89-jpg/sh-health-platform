@@ -7,10 +7,32 @@
     <!-- SEO -->
     <meta name="description" content="Simple, reliable health information on hypertension, diabetes, and healthy living. Built on 19 years of clinical expertise." />
     
-    <!-- Theme color for mobile browsers -->
+    <!-- Theme color -->
     <meta name="theme-color" content="#0f766e" />
     
     <title>SH Health Global | Simple Health Information for Everyone</title>
+
+    <style>
+        .ai-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background-color: #0d9488;
+            color: white;
+            padding: 16px 28px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 4px 15px rgba(13, 148, 136, 0.3);
+            transition: transform 0.2s ease, background-color 0.2s ease;
+        }
+
+        .ai-button:hover {
+            transform: scale(1.05);
+            background-color: #0f766e;
+        }
+    </style>
 </head>
 
 <body style="background-color: #f0fdfa; color: #1e293b; font-family: sans-serif; margin: 0; padding: 20px; line-height: 1.6;">
@@ -18,11 +40,24 @@
     <div style="background: white; max-width: 600px; margin: 20px auto; padding: 30px; border-radius: 15px; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); border-top: 8px solid #0f766e;">
 
         <header style="text-align: center; margin-bottom: 30px; background-color: #0f766e; padding: 30px; border-radius: 10px 10px 0 0; margin: -30px -30px 30px -30px;">
-           <h1 style="color: white; margin-bottom: 5px;">SH Health Global</h1>
-           <p style="color: #ccfbf1; font-weight: bold; margin-top: 0;">
-            StayingHealthy & Wellbeing — Simple Health Information for Everyone
+            <h1 style="color: white; margin-bottom: 5px;">SH Health Global</h1>
+            <p style="color: #ccfbf1; font-weight: bold; margin-top: 0;">
+                StayingHealthy & Wellbeing — Simple Health Information for Everyone
             </p>
-         </header>
+        </header>
+
+        <!-- AI BUTTON (CORRECT PLACEMENT) -->
+        <div style="text-align:center; margin: 25px 0;">
+            <h3 style="color:#0f766e;">Have a health question?</h3>
+
+            <a href="https://your-ai-app.vercel.app" target="_blank" class="ai-button">
+                🤖 Ask our AI Health Assistant
+            </a>
+
+            <p style="font-size: 0.85rem; color: #64748b; margin-top: 10px;">
+                Get personalized health answers in seconds.
+            </p>
+        </div>
 
         <section style="margin-bottom: 25px;">
             <h2 style="color: #134e4a; border-bottom: 2px solid #ccfbf1; padding-bottom: 5px;">
@@ -37,7 +72,7 @@
         </section>
 
         <section style="margin-bottom: 20px; background-color: #f0fdfa; padding: 15px; border-radius: 8px;">
-            <h3 style="color: #0f766e; margin-top: 0;">What is Hypertension?</h3>
+            <h3 style="color: #0f766e;">What is Hypertension?</h3>
             <p>
                 High blood pressure means your blood pushes too hard against your blood vessels. 
                 If untreated, it can lead to heart disease and stroke.
@@ -45,34 +80,16 @@
         </section>
 
         <section style="margin-bottom: 20px; background-color: #f0fdfa; padding: 15px; border-radius: 8px;">
-            <h3 style="color: #0f766e; margin-top: 0;">What is Diabetes?</h3>
+            <h3 style="color: #0f766e;">What is Diabetes?</h3>
             <p>
                 Diabetes occurs when your blood sugar is too high. Healthy eating, regular exercise, 
                 and monitoring help control it.
             </p>
         </section>
-        
-        <section style="margin-bottom: 20px; background-color: #f0fdfa; padding: 15px; border-radius: 8px;">
-            <h3 style="color: #0f766e; margin-top: 0;">Lung Health & Breathing</h3>
-            <p>
-                Conditions like Asthma and COPD make it harder for air to move through your lungs. 
-                Keep your home free of dust and smoke, and always keep your prescribed inhaler nearby.
-            </p>
-            <p style="font-size: 0.9rem; color: #134e4a;"><strong>Tip:</strong> Practice deep breathing exercises to help strengthen your lung capacity.</p>
-        </section>
-        
-        <section style="margin-bottom: 20px; background-color: #f0fdfa; padding: 15px; border-radius: 8px;">
-            <h3 style="color: #0f766e; margin-top: 0;">Kidney Care</h3>
-            <p>
-                Your kidneys filter waste from your blood. High blood pressure and diabetes are the leading 
-                causes of kidney damage. Drinking water and reducing salt intake are the best ways to protect them.
-            </p>
-            <p style="font-size: 0.9rem; color: #134e4a;"><strong>Simple Talk:</strong> Think of your kidneys as your body's natural cleaning system.</p>
-        </section>
-        
+
         <section style="margin-bottom: 25px;">
             <h3 style="color: #0f766e;">Healthy Lifestyle Tips</h3>
-            <ul style="padding-left: 20px;">
+            <ul>
                 <li>Eat more fruits and vegetables</li>
                 <li>Exercise at least 30 minutes daily</li>
                 <li>Reduce salt and sugar intake</li>
@@ -81,15 +98,14 @@
             </ul>
         </section>
 
-        <!-- Medical Disclaimer -->
         <section style="margin-top: 20px; font-size: 0.9rem; color: #475569;">
             <p>
                 <strong>Disclaimer:</strong> This platform provides general health information and is not a substitute 
-                for professional medical advice. Always consult a qualified healthcare provider.
+                for professional medical advice.
             </p>
         </section>
 
-        <footer style="text-align: center; font-size: 0.85rem; color: #64748b; margin-top: 40px; border-top: 1px solid #e2e8f0; padding-top: 20px;">
+        <footer style="text-align: center; font-size: 0.85rem; color: #64748b; margin-top: 40px;">
             © 2026 SH Health Platform — Global Clinical Intelligence for NCD Care
         </footer>
 
